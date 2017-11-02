@@ -23,11 +23,6 @@
     dest: /tmp
     remote_src: True
 
-- name: configure
-  command: ./configure
-  args:
-    chdir: /tmp/re2-{{ libre2_version }}
-
 - name: make
   command: make
   args:
