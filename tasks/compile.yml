@@ -19,7 +19,7 @@
 
 - name: fetch google/re2
   unarchive:
-    src: ttps://github.com/google/re2/archive/{{ libre2_version }}.tar.gz
+    src: https://github.com/google/re2/archive/{{ libre2_version }}.tar.gz
     dest: /tmp
     remote_src: True
 
