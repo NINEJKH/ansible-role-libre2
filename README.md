@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/lifeofguenter/ansible-role-libre2.svg?branch=master)](https://travis-ci.org/lifeofguenter/ansible-role-libre2)
+[![Build Status](https://travis-ci.org/NINEJKH/ansible-role-libre2.svg?branch=master)](https://travis-ci.org/NINEJKH/ansible-role-libre2)
 
-# lifeofguenter.libre2
+# NINEJKH.libre2
 
 An Ansible role that installs google/re2 (from source) on Debian-like systems.
 
@@ -11,7 +11,7 @@ none
 ## Role Variables
 
 ```yaml
-libre2_version: 2017-11-01
+libre2_version: 2018-02-01
 ```
 
 ## Dependencies
@@ -24,7 +24,7 @@ none
 
 - hosts: libre2
   roles:
-    - { role: lifeofguenter.libre2 }
+    - { role: NINEJKH.libre2 }
 ```
 
 ## License
@@ -33,4 +33,4 @@ Licensed under the MIT License. See the [LICENSE file](LICENSE) for details.
 
 ## Author Information
 
-[Gunter Grodotzki](https://lifeofguenter.de)
+[9JKH (Pty) Ltd.](https://9jkh.co.za)
