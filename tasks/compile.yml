@@ -9,6 +9,7 @@
   with_items:
     - make
     - gcc
+    - g++
   become: yes
 
 - name: clear state
