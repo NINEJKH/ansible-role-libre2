@@ -25,7 +25,7 @@
     remote_src: True
 
 - name: make
-  command: make
+  command: make -j{{ ansible_processor_vcpus }}
   args:
     chdir: /tmp/re2-{{ libre2_version }}
 
